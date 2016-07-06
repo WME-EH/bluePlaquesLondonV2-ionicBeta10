@@ -1,0 +1,23 @@
+<ion-header>
+    <ion-navbar primary>
+        <ion-title>
+            <img id="eh-logo-header" src="build/assets/img/eh-logo-white.svg">
+        </ion-title>
+    </ion-navbar>
+</ion-header> 
+
+<ion-content class="near-me">
+  	<sebm-google-map [latitude]="lat" [longitude]="lng">
+  		<sebm-google-map-marker *ngFor="let plaque of plaqueData" [latitude]="plaque.lat" [longitude]="plaque.lng" [iconUrl]="bluePlaquesPin" >
+  			<sebm-google-map-info-window>
+		      {{plaque.t}}
+		      <p>
+		      	<button primary small (click)="plaqueInfo(plaque.id)">More Info</button>
+		      </p>
+		    </sebm-google-map-info-window>
+  		</sebm-google-map-marker>
+	</sebm-google-map>
+</ion-content>
+
+
+

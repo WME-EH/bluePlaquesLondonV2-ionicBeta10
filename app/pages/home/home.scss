@@ -1,0 +1,14 @@
+[class*="circle-button"] {
+	border-radius: 100%;
+	border: solid 2px white;
+	width: 20vw;
+	height: 20vw;
+	&.circle-button-large {
+		width: 50vw;
+		height: 50vw;
+	}
+}
+
+ion-card {
+	background: map-get($colors, white);
+}

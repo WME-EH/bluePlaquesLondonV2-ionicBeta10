@@ -1,0 +1,26 @@
+// http://ionicframework.com/docs/v2/theming/
+
+
+// App Shared Imports
+// --------------------------------------------------
+// These are the imports which make up the design of this app.
+// By default each design mode includes these shared imports.
+// App Shared Sass variables belong in app.variables.scss.
+
+
+@import '../assets/custom-fonts/eh-font';
+@import '../pages/home/home';
+@import '../pages/near-me/near-me';
+
+[flex-center] {
+	justify-content: center;
+}
+
+#eh-logo-header {
+	height: 32px;
+}
+
+
+.toast-wrapper.toast-bottom {
+	bottom: 48px;
+}

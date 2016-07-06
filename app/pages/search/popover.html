@@ -1,0 +1,34 @@
+<ion-list>
+    <ion-item>
+        <ion-label>London Borough</ion-label>
+        <ion-select [(ngModel)]="borough">
+            <ion-option value="nes">NES</ion-option>
+            <ion-option value="n64">Nintendo64</ion-option>
+            <ion-option value="ps">PlayStation</ion-option>
+            <ion-option value="genesis">Sega Genesis</ion-option>
+            <ion-option value="saturn">Sega Saturn</ion-option>
+            <ion-option value="snes">SNES</ion-option>
+        </ion-select>
+    </ion-item>
+    <ion-item>
+        <ion-label>Category</ion-label>
+        <ion-select [(ngModel)]="category">
+            <ion-option value="nes">NES</ion-option>
+            <ion-option value="n64">Nintendo64</ion-option>
+            <ion-option value="ps">PlayStation</ion-option>
+            <ion-option value="genesis">Sega Genesis</ion-option>
+            <ion-option value="saturn">Sega Saturn</ion-option>
+            <ion-option value="snes">SNES</ion-option>
+        </ion-select>
+    </ion-item>
+    <div padding>
+        <ion-segment>
+            <ion-segment-button value="kittens">
+                Kittens
+            </ion-segment-button>
+            <ion-segment-button value="puppies">
+                Puppies
+            </ion-segment-button>
+        </ion-segment>
+    </div>
+</ion-list>

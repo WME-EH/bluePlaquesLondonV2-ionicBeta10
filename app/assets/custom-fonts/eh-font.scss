@@ -1,0 +1,10 @@
+// EH Font Family
+
+@font-face {
+    font-family: 'GillSansLight';
+    src: url('../fonts/GillSansMTW01-Light.ttf') format('truetype'), /* Android, iOS */
+    url('../fonts/GillSansMTW01-Light.svg#svgFontName') format('svg'), 
+    url('../fonts/GillSansMTW01-Light.eot') format('eot'), 
+    url('../fonts/GillSansMTW01-Light.woff') format('woff'), 
+    url('../fonts/GillSansMTW01-Light.woff2') format('woff2');
+}

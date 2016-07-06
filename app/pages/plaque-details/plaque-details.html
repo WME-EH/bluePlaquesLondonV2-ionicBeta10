@@ -1,0 +1,14 @@
+<ion-header>
+    <ion-navbar primary>
+        <ion-title>
+            <img id="eh-logo-header" src="build/assets/img/eh-logo-white.svg">
+        </ion-title>
+    </ion-navbar>
+</ion-header> 
+
+<ion-content padding class="plaque-details">
+  <h1>Plaque details page</h1>
+  <h2>Plaque ID: {{plaqueID}}</h2>
+  <p *ngFor="let item of result" >{{item.t}}</p>
+
+</ion-content>
