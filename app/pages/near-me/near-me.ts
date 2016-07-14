@@ -54,7 +54,7 @@ export class NearMePage {
 
 	private plaqueInfo(id) {
 		console.log(id);
-		this.nav.push(PlaqueDetailsPage, { plaqueID: id});
+		this.nav.push(PlaqueDetailsPage, { plaqueID: id });
 	}
 
 	// loadGoogleMaps() {

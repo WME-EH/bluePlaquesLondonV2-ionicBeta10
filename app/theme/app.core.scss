@@ -24,3 +24,7 @@
 .toast-wrapper.toast-bottom {
 	bottom: 48px;
 }
+
+ion-page.show-page ~ .nav-decor {
+	z-index: -1;
+}
